@@ -222,7 +222,11 @@ header {
     margin-top: 50px;
 }
 
-
+.work-section{
+  background-image: url('   https://www.technova.com.tr/wp-content/uploads/2023/05/download.png');
+  z-index: 99;
+  position:ab;
+}
 
 
 
