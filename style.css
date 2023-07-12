@@ -215,6 +215,8 @@ header {
 
 .map-section {
     margin-top: 100px;
+    height: 16rem;
+
 }
 
 
@@ -232,3 +234,8 @@ header {
   background: #002C90!important;
 }
 
+.map-section a {
+  font-size: 16px;
+  font-weight: 600;
+  
+}
