@@ -220,6 +220,7 @@ header {
 .footer{
     width: 100%;
     background: #4061AC;
+    color: w;
 }
 
 
@@ -241,7 +242,7 @@ header {
 .work-section{
   background-image: url('   https://www.technova.com.tr/wp-content/uploads/2023/05/download.png');
   z-index: 99;
-  position:ab;
+  margin-top: -6rem;
 }
 
 .btn-information{
@@ -253,38 +254,7 @@ header {
   font-weight: 600;
   
 }
-.partner-section .row {
-  gap: 1px;
-}
-.partner-section h4 {
-color: #002C90;
-font-weight: 700;
-font-size: 24px;
-}
-.icon-div {
-  background-color: #fff;
-  height: 120px;
-  width: 190px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
-  border-radius: 10px;
-  
 
-}
-
-.partner-img {
-  background-color: #fff;
-  height: 120px;
-  width: 190px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
-  border-radius: 10px;
- 
-}
 /* section main start**************************/
 .section-main {
   background: #4061ac;
@@ -389,6 +359,145 @@ font-size: 24px;
     background-color: #fff;
     margin: 0 auto;
   }
+/****************period-section***********************/
+.period-section {
+  background-image: url('https://www.technova.com.tr/wp-content/uploads/2023/05/download-3.png');
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+.period-section h2{
+  font-size: 34px;
+  color: #002c90;
+  text-align: center;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.period-section .period-box {
+  border-radius: 17px;
+    background: #f8f8f8;
+    border: 1px solid #002c90;
+    box-shadow: 0 20px 40px rgba(124,124,124,.16);
+    padding: 31px 20px;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.period-section .period-box span {
+  
+  font-size: 34px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background: #002c90;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 100pz;
+}
+
+/**comment-section*******************/
+
+
+.comment-section .content-div {
+  width: 415.5px;
+   margin-right: 25px;
+   border-radius:10px;
+   align-items: start;
+   display: flex;
+   flex-direction: column;
+   height: 494px;
+   justify-content: center;
+}
+
+
+
+/******************************partner-section*/
+
+.partner-section  {
+  background-color:#F8F8F8;
+  padding: 5rem 0;
+}
+.partner-section .row {
+ 
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.partner-section h4 {
+color: #002C90;
+font-weight: 700;
+font-size: 24px;
+}
+.icon-div {
+  background-color: #fff;
+  height: 120px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
+  border-radius: 10px;
+  
+
+}
+
+.partner-section .partner-img {
+  background-color: #fff;
+  height: 120px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
+  border-radius: 10px;
+ 
+}
+
+/* .partner-section .partner-up .row {
+ 
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***********MEDİA QUERYY**********/
 @media (min-width: 576px) {
@@ -396,6 +505,10 @@ font-size: 24px;
       max-width:540px
   }
 }
+
+
+
+
 
 @media (min-width: 768px) {
   .container,.container-md,.container-sm {
