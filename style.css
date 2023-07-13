@@ -151,9 +151,11 @@ header {
 }
 
 .footer{
+  display: block;
     width: 100%;
     background: #4061AC;
-    color: w;
+    padding-top: 53px;
+    padding-bottom: 25px;
 }
 
 
@@ -248,11 +250,20 @@ header {
 .work-section{
   z-index: 10;
 }
+
+.work-section h3 {
+  font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+}
   .main-two-content{
     border-radius: 20px;
     position: relative;
     color: #fff;
   }
+
   .main-two-content::before {
     content: '';
     position: absolute;
@@ -352,6 +363,14 @@ header {
    flex-direction: column;
    height: 494px;
    justify-content: center;
+}
+
+.comment-section h3 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
 }
 
 
