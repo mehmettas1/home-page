@@ -39,7 +39,7 @@ img {
 
 header {
     border-bottom: 1px solid #dee0ea;
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     background: #fff;
@@ -250,6 +250,37 @@ header {
   }
 
 
+
+  @media (min-width: 576px) {
+    .container,.container-sm {
+        max-width:540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container,.container-md,.container-sm {
+        max-width:720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container,.container-lg,.container-md,.container-sm {
+        max-width:960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,.container-lg,.container-md,.container-sm,.container-xl {
+        max-width:1140px
+    }
+}
+
+@media (min-width: 1400px) {
+    .container,.container-lg,.container-md,.container-sm,.container-xl {
+        max-width:1320px
+    }
+}
+
 .map-section {
     margin-top: 100px;
     height: 16rem;
@@ -308,10 +339,11 @@ font-size: 24px;
   border-radius: 10px;
  
 }
-
+/* section main start**************************/
 .section-main {
   background: #4061ac;
-  height: 537px;
+  padding: 50px 0;
+
 }
 .section-main h3 {
   font-weight: 700;
@@ -323,4 +355,21 @@ font-size: 24px;
 
 .section-main  .container-fluid {
   margin: 0  !important ;
+}
+.section-main h4 {
+  margin: 0;
+    padding-top: 17px;
+    font-size: 24px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+.section-main p {
+  padding-top: 7px!important;
+}
+
+/**********left-image-section************************/
+
+.left-image-section {
+  max-width: 1320px;
 }
