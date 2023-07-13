@@ -239,3 +239,35 @@ header {
   font-weight: 600;
   
 }
+.partner-section .row {
+  gap: 1px;
+}
+.partner-section h4 {
+color: #002C90;
+font-weight: 700;
+font-size: 24px;
+}
+.icon-div {
+  background-color: #fff;
+  height: 120px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
+  border-radius: 10px;
+  
+
+}
+
+.partner-img {
+  background-color: #fff;
+  height: 120px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(217, 215, 215, 0.459);
+  border-radius: 10px;
+ 
+}
