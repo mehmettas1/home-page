@@ -176,6 +176,8 @@ header {
   
 }
 
+
+
 /* section main start**************************/
 .section-main {
   background: #4061ac;
@@ -368,9 +370,19 @@ header {
   color: #fff;
 }
 
+.comment-section span {
+  font-family: inherit;
+  font-size: 24px;
+  color: #002c90;
+  font-weight: 700;
 
+}
 
-/******************************partner-section*/
+.comment-section p {
+  font-size:18px;
+}
+
+/******************************partner-section*********************/
 
 .partner-section  {
   background-color:#F8F8F8;
