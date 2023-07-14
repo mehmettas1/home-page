@@ -346,7 +346,9 @@ header {
 
 /**comment-section*******************/
 
-
+.comment-section {
+  background: #0d255c;
+}
 .comment-section .content-div {
   width: 415.5px;
    margin-right: 25px;
@@ -450,7 +452,7 @@ font-size: 24px;
 
 /***********MEDİA QUERYY**********/
 @media (min-width: 576px) {
-  .container,.container-sm {
+  .container {
       max-width:540px
   }
 }
@@ -460,25 +462,25 @@ font-size: 24px;
 
 
 @media (min-width: 768px) {
-  .container,.container-md,.container-sm {
+  .container {
       max-width:720px!important;
   }
 }
 
 @media (min-width: 992px) {
-  .container,.container-lg,.container-md,.container-sm {
+  .container {
       max-width:960px!important
   }
 }
 
 @media (min-width: 1200px) {
-  .container,.container-lg,.container-md,.container-sm,.container-xl {
+  .container {
       max-width:1140px!important;
   }
 }
 
 @media (min-width: 1400px) {
-  .container,.container-lg,.container-md,.container-sm,.container-xl {
+  .container {
       max-width:1320px!important;
   }
 }
